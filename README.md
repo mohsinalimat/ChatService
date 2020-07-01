@@ -2,14 +2,14 @@
 ](https://developer.apple.com/swift/)
 
 # ChatService
-基于Perfect 框架编写的聊天服务。暂时没有集成数据库操作需要和下面应用使用
+A chat service based on the Perfect framework. There is no need to integrate the database operation with the following applications
 * [chat](https://github.com/JiMengfei/Chat.git)
-## 编译
+## compile
 ```bash
- swift build
+  swift build
 ```
-## 运行
+## Run
 ```bash
 ./.build/debug/ChatService
 ```
-终端输出  [INFO] Starting HTTP server 127.0.0.1 on :::1314 表示服务运行成功，也可以通过xcode启动。
+Terminal output [INFO] Starting HTTP server 127.0.0.1 on :::1314 indicates that the service runs successfully, and can also be started through xcode.
